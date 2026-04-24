@@ -1,24 +1,20 @@
 # 🏨 Hotel Management System - Backend
 
-Sistema de escritorio desarrollado en **C#** para la gestión automatizada de hoteles, utilizando una **Arquitectura en Capas (N-Tier)**.
+Sistema de escritorio para la gestión hotelera desarrollado con **C#** y **.NET**. El proyecto destaca por el uso de una **Arquitectura en Capas (N-Tier)** para garantizar la escalabilidad y el mantenimiento del código.
 
-## 🚀 Características
-* Gestión de Huéspedes, Habitaciones y Servicios.
-* Separación estricta de lógica de negocio y acceso a datos.
-* Conexión robusta a base de datos mediante Capa de Datos.
-
-## 🛠️ Tecnologías Utilizadas
-* **Lenguaje:** C# (.NET Framework)
-* **Interfaz:** Windows Forms (WinForms)
+## 🛠️ Tecnologías y Herramientas
+* **Lenguaje:** C#
+* **Entorno:** .NET Framework / Visual Studio
 * **Base de Datos:** SQL Server
-* **Arquitectura:** N-Capas (Presentación, Negocio, Modelo, Datos)
+* **Arquitectura:** N-Capas (Separación de responsabilidades)
 
-## 🏗️ Arquitectura del Proyecto
-El proyecto se divide en:
-1. **PRESENTACION:** Formularios e interfaz de usuario.
-2. **NEGOCIO:** Reglas de validación y lógica intermedia.
-3. **DATOS:** Métodos CRUD y conexión a la DB.
-4. **MODELO:** Entidades del sistema.
+## 🏗️ Estructura del Proyecto
+* **PRESENTACION:** Capa de interfaz de usuario (WinForms).
+* **NEGOCIO:** Lógica y reglas del sistema.
+* **DATOS:** Acceso a la base de datos y persistencia.
+* **MODELO:** Definición de entidades (Huéspedes, Habitaciones, etc.).
 
----
-*Desarrollado por Fernando Fajardo para fines profesionales.*
+## 🚀 Cómo ejecutar
+1. Clonar el repositorio.
+2. Abrir el archivo `SistemaHotel.sln` en Visual Studio.
+3. Configurar la cadena de conexión en la capa de DATOS.
