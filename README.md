@@ -3,7 +3,7 @@
 Este es un proyecto en curso de un sistema integral para la gestión hotelera desarrollado en **C#**. El objetivo principal es demostrar la implementación de una **Arquitectura en Capas (N-Tier)** sólida y mantenible en entornos .NET.
 
 ## 🚧 Estado del Proyecto
-Actualmente, el sistema se encuentra en **fase de desarrollo activo**. Se está trabajando en la lógica de negocio y la persistencia de datos.
+Actualmente, el sistema se encuentra en **fase de desarrollo activo**. Se está trabajando en la lógica y la persistencia de datos.
 
 ### 🏗️ Arquitectura que se está implementando:
 El proyecto está siendo estructurado bajo una separación de responsabilidades estricta:
