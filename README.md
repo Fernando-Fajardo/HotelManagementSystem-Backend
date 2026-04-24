@@ -1,20 +1,27 @@
-# 🏨 Hotel Management System - Backend
+# 🏨 Hotel Management System (En Desarrollo)
 
-Sistema de escritorio para la gestión hotelera desarrollado con **C#** y **.NET**. El proyecto destaca por el uso de una **Arquitectura en Capas (N-Tier)** para garantizar la escalabilidad y el mantenimiento del código.
+Este es un proyecto en curso de un sistema integral para la gestión hotelera desarrollado en **C#**. El objetivo principal es demostrar la implementación de una **Arquitectura en Capas (N-Tier)** sólida y mantenible en entornos .NET.
 
-## 🛠️ Tecnologías y Herramientas
-* **Lenguaje:** C#
-* **Entorno:** .NET Framework / Visual Studio
-* **Base de Datos:** SQL Server
-* **Arquitectura:** N-Capas (Separación de responsabilidades)
+## 🚧 Estado del Proyecto
+Actualmente, el sistema se encuentra en **fase de desarrollo activo**. Se está trabajando en la lógica de negocio y la persistencia de datos.
 
-## 🏗️ Estructura del Proyecto
-* **PRESENTACION:** Capa de interfaz de usuario (WinForms).
-* **NEGOCIO:** Lógica y reglas del sistema.
-* **DATOS:** Acceso a la base de datos y persistencia.
-* **MODELO:** Definición de entidades (Huéspedes, Habitaciones, etc.).
+### 🏗️ Arquitectura que se está implementando:
+El proyecto está siendo estructurado bajo una separación de responsabilidades estricta:
+* **PRESENTACION:** Diseño de interfaces de usuario con Windows Forms.
+* **NEGOCIO:** Implementación de reglas de validación y lógica de servicios.
+* **MODELO / ENTIDAD:** Definición de los objetos de dominio.
+* **DATOS:** Gestión de la persistencia y conexión con SQL Server.
 
-## 🚀 Cómo ejecutar
-1. Clonar el repositorio.
-2. Abrir el archivo `SistemaHotel.sln` en Visual Studio.
-3. Configurar la cadena de conexión en la capa de DATOS.
+## 🛠️ Tecnologías en uso
+* **Lenguaje:** C# (.NET Framework)
+* **Gestor de Base de Datos:** SQL Server
+* **Control de Versiones:** Git / GitHub
+
+## 📅 Próximos pasos (Roadmap)
+- [ ] Finalizar la migración de clases de persistencia a la capa de **DATOS**.
+- [ ] Implementar validaciones avanzadas en la capa de **NEGOCIO**.
+- [ ] Completar el módulo de reservaciones y facturación.
+- [ ] Refactorización de la interfaz de usuario para mejorar la UX.
+
+---
+*Desarrollado por Fernando Fajardo. Proyecto enfocado en buenas prácticas de ingeniería de software.*
